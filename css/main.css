@@ -1,3 +1,6 @@
+body {
+    background-color: #15384e;
+}
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
@@ -16,4 +19,8 @@ img {
 
 .centerText {
     text-align: center;
+}
+
+.centerPicture {
+
 }
