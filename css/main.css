@@ -22,5 +22,6 @@ img {
 }
 
 .centerPicture {
-
+    align-content: center;
+    height: 20%;
 }
