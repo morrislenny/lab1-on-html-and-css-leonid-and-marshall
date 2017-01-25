@@ -59,8 +59,8 @@ li a {
 
 
 li a:hover:not(.active) {
-    background-color: #333553;
-    color: white;
+    background-color: #196BC2;
+    color: #333333;
     margin:0;
 }
 
