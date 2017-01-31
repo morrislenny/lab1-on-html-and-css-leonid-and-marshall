@@ -1,13 +1,23 @@
 body {
     background-color: #15384e;
 }
+
+h2, p, .navbar {
+    color: white
+}
+
+h2, p {
+    text-align: center;
+}
+
 h2 {
-    color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+    font-size: 2vw;
 }
 
 p {
     font-family: monospace;
+    font-size: 1vw;
 }
 
 img {
@@ -17,9 +27,6 @@ img {
     margin-right: auto;
 }
 
-li {
-
-}
  /* NAV BAR LIKE STUFF */
 .navbar ul {
     list-style-type: none;
@@ -64,9 +71,6 @@ li a:hover:not(.active) {
     margin:0;
 }
 
-.centerText {
-    text-align: center;
-}
 
 .centerPicture {
     align-content: center;
