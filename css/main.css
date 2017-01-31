@@ -1,3 +1,6 @@
+body {
+    background-color: #15384e;
+}
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
@@ -14,6 +17,58 @@ img {
     margin-right: auto;
 }
 
+li {
+
+}
+ /* NAV BAR LIKE STUFF */
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li {
+    width: 20%;
+    display: inline-block;
+    float: none;
+    font-family: Impact;
+    padding: 0px;
+    font-size: 3vw;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.navbar{
+    background-color: #333333;
+    width: 100%;
+    padding-left: -1000px;
+    padding: -1000px;
+    position: relative;
+}
+/* NAV BAR LIKE STUFF */
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #333333;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+li a:hover:not(.active) {
+    background-color: #196BC2;
+    color: #333333;
+    margin:0;
+}
+
 .centerText {
     text-align: center;
+}
+
+.centerPicture {
+    align-content: center;
+    height: 20%;
 }
