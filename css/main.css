@@ -42,7 +42,8 @@ a {
     font-size: 1wv;
 }
 /* CSS 3 FEATURE: RESIZE
-    We chose this feature so that people having trouble fitting the gif to the sizes they want could change it.*/
+    We chose this feature so that people having trouble fitting the gif to the sizes they want could change it.
+    Couldn't make the resizing small though :( */
 .gif-resizable{
     width: 960px;
     height: 542px;
