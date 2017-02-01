@@ -2,12 +2,55 @@ body {
     background-color: #15384e;
 }
 
+
 h2, p, .navbar {
     color: white
 }
 
 h2, p {
     text-align: center;
+}
+
+h2, p, .Staff {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+h2, p, .staffTitle {
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+h2, p, .Mission {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+h2, p, .missionTitle {
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+h2, p, .Products {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+h2, p, .productsTitle {
+    font-size 4vw;
+    text-decoration: underline;
+}
+
+h2, p, .productsDescription {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
+
+h2, p, footer {
+    text-align: center;
+    color: white;
 }
 
 h2 {
