@@ -2,50 +2,22 @@ body {
     background-color: #15384e;
 }
 
-
-h2, p, .navbar {
-    color: white
-}
-
-h2, p {
-    text-align: center;
-}
-
-h2, p, .Staff {
-    text-align: center;
-    font-size: 3vw;
+.navbar {
     color: white;
-}
-h2, p, .staffTitle {
-    font-size: 4vw;
-    text-decoration: underline;
-}
-
-h2, p, .Mission {
-    text-align: center;
-    font-size: 3vw;
-    color: white;
-}
-h2, p, .missionTitle {
-    font-size: 4vw;
-    text-decoration: underline;
-}
-
-h2, p, .Products {
-    text-align: center;
-    font-size: 3vw;
-    color: white;
-}
-
-h2, p, .productsTitle {
-    font-size 4vw;
-    text-decoration: underline;
-}
-
-h2, p, .productsDescription {
     text-align: center;
     font-size: 2vw;
     color: white;
+}
+
+p, .Staff, .Mission, .Products, .productsDescription {
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+}
+h2, .title {
+    font-size: 3vw;
+    font-family: Impact;
 }
 
 h2, p, footer {
@@ -53,14 +25,9 @@ h2, p, footer {
     color: white;
 }
 
-h2 {
-    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
-    font-size: 2vw;
-}
-
-p {
-    font-family: monospace;
-    font-size: 1vw;
+#Staff {
+    font-size: 3vw;
+    font-family: Impact;
 }
 
 img {
@@ -68,6 +35,19 @@ img {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    color: white;
+    font-size: 1wv;
+}
+/* CSS 3 FEATURE: RESIZE
+    We chose this feature so that people having trouble fitting the gif to the sizes they want could change it.*/
+.gif-resizable{
+    width: 960px;
+    height: 542px;
+    resize: both;
+    overflow: auto;
 }
 
  /* NAV BAR LIKE STUFF */
