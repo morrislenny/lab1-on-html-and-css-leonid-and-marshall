@@ -1,13 +1,33 @@
 body {
     background-color: #15384e;
 }
-h2 {
-    color: red;
-    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+
+.navbar {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    color: white;
 }
 
-p {
-    font-family: monospace;
+p, .Staff, .Mission, .Products, .productsDescription {
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+}
+h2, .title {
+    font-size: 3vw;
+    font-family: Impact;
+}
+
+h2, p, footer {
+    text-align: center;
+    color: white;
+}
+
+#Staff {
+    font-size: 3vw;
+    font-family: Impact;
 }
 
 img {
@@ -17,9 +37,19 @@ img {
     margin-right: auto;
 }
 
-li {
-
+a {
+    color: white;
+    font-size: 1wv;
 }
+/* CSS 3 FEATURE: RESIZE
+    We chose this feature so that people having trouble fitting the gif to the sizes they want could change it.*/
+.gif-resizable{
+    width: 960px;
+    height: 542px;
+    resize: both;
+    overflow: auto;
+}
+
  /* NAV BAR LIKE STUFF */
 .navbar ul {
     list-style-type: none;
@@ -64,9 +94,6 @@ li a:hover:not(.active) {
     margin:0;
 }
 
-.centerText {
-    text-align: center;
-}
 
 .centerPicture {
     align-content: center;
