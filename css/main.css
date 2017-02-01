@@ -9,7 +9,7 @@ body {
     color: white;
 }
 
-p, .Staff, .Mission, .Products, .productsDescription {
+p, .Staff, .Mission, .Products, .productsDescription, .missionDescription {
     text-align: center;
     font-size: 2vw;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
