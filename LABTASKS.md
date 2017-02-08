@@ -1,4 +1,4 @@
-# Lab Tasks
+# Lenny is the best :bowtie:
 ## Summary
 Your task for this lab is to develop a static web page for a small business, such as a health food store, using HTML and CSS. Do not use any javascript. You may include forms if you'd like, but no form handling at this point.
 
